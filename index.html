@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Henrique Molina | Portfólio Profissional</title>
+    
+    <meta name="description" content="Portfólio profissional de Pedro Henrique Molina, Técnico em Desenvolvimento de Sistemas e Informática pelo SENAC, Fundador da MOLLINATECH e Desenvolvedor Web.">
+    <meta name="keywords" content="Pedro Henrique Molina, MOLLINATECH, Desenvolvimento de Sistemas, Informática, Web Developer, SENAC, Pouso Alegre">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pedro Henrique Molina | Portfólio Profissional">
+    <meta property="og:description" content="Soluções tecnológicas modernas, desenvolvimento de software e infraestrutura de TI.">
+    <meta property="og:image" content="assets/foto.jpg">
+
+    <link rel="icon" type="image/png" href="assets/logo-mollinatech.png">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="progress-bar" aria-hidden="true"></div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo-area" aria-label="Voltar ao topo">
+                <img src="assets/logo-mollinatech.png" alt="Logo MOLLINATECH" class="nav-logo">
+                <span class="logo-text">MOLLINATECH</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                    <li><a href="#formacao" class="nav-link">Formação</a></li>
+                    <li><a href="#conquistas" class="nav-link">Conquistas</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu de navegação" aria-controls="nav-menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <canvas id="hero-canvas" aria-hidden="true"></canvas>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">Disponível para Projetos</span>
+                    <h1 class="hero-title">Pedro Henrique Molina</h1>
+                    <h2 class="hero-subtitle" id="typing-text"></h2>
+                    <p class="hero-description">
+                        Transformando ideias em soluções digitais através da programação estruturada, inovação constante e excelência técnica em infraestrutura de tecnologia.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="assets/CURRÍCULO - PH MOLINA.pdf" download class="btn btn-primary">Baixar Currículo</a>
+                        <a href="#contato" class="btn btn-secondary">Conecte-se Comigo</a>
+                        <a href="https://www.linkedin.com/in/pedro-henrique-carvalho-molina-111b54373/" target="_blank" rel="noopener" class="btn btn-tertiary">Ver LinkedIn</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="assets/foto.jpg" alt="Foto profissional de Pedro Henrique Molina" class="hero-image" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section section-padding">
+            <div class="container stats-grid">
+                <div class="stat-item glass-card">
+                    <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+                    <p class="stat-label">Cursos Técnicos</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <span class="stat-number" data-target="3">0</span>
+                    <p class="stat-label">Idiomas</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <span class="stat-text">Tecnologia</span>
+                    <p class="stat-label">Área de Atuação</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <span class="stat-number" data-target="1">0</span>
+                    <p class="stat-label">Empresa Fundada</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre-section section-padding reveal">
+            <div class="container sobre-container">
+                <div class="sobre-image-area">
+                    <img src="assets/foto.jpg" alt="Pedro Henrique Molina" class="sobre-img-fallback">
+                </div>
+                <div class="sobre-content">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p class="section-paragraph">
+                        Sou estudante e profissional em desenvolvimento na área tecnológica, com sólida base em lógica de programação, algoritmos e programação estruturada. Minha trajetória é marcada pela dedicação acadêmica no SENAC de Pouso Alegre - MG, onde me capacito simultaneamente em Desenvolvimento de Sistemas e Informática.
+                    </p>
+                    <p class="section-paragraph">
+                        Com forte espírito empreendedor e foco em soluções eficientes, possuo experiência prática em montagem e manutenção de computadores, além do desenvolvimento de aplicações web e executáveis. Busco aplicar inovação técnica associada a uma comunicação interpessoal clara e assertiva.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades-section section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Habilidades Técnicas</h2>
+                <div class="habilidades-grid">
+                    
+                    <div class="glass-card skill-category">
+                        <h3>Desenvolvimento</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Lógica de Programação & Algoritmos</span><span>95%</span></div>
+                            <div class="progress-line"><span style="width: 95%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Programação Estruturada</span><span>90%</span></div>
+                            <div class="progress-line"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Desenvolvimento Web</span><span>95%</span></div>
+                            <div class="progress-line"><span style="width: 95%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card skill-category">
+                        <h3>Informática & Infraestrutura</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Montagem e Reparos de Hardware</span><span>100%</span></div>
+                            <div class="progress-line"><span style="width: 100%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Instalação de Sistemas Operacionais</span><span>100%</span></div>
+                            <div class="progress-line"><span style="width: 100%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Redes & Defesa de Rede (Cisco)</span><span>80%</span></div>
+                            <div class="progress-line"><span style="width: 80%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Business Intelligence (Power BI)</span><span>75%</span></div>
+                            <div class="progress-line"><span style="width: 75%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card skill-category">
+                        <h3>Idiomas</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Português (Nativo)</span><span>100%</span></div>
+                            <div class="progress-line"><span style="width: 100%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Inglês (Avançado)</span><span>100%</span></div>
+                            <div class="progress-line"><span style="width: 100%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Espanhol (Intermediário)</span><span>75%</span></div>
+                            <div class="progress-line"><span style="width: 75%"></span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="experiencia-section section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Experiência Profissional</h2>
+                <div class="timeline">
+
+
+                    <div class="timeline-item right">
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Atuação Atual</span>
+                            <h3>Técnico de Informática pela Alfa Informática</h3>
+                            <p>Experiência em reparos e manutenção de Hardware e Software, atuando pela empresa Alfa Informática.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item left">
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Atuação Contínua</span>
+                            <h3>Técnico de Informática autônomo</h3>
+                            <p>Experiência com foco direto em manutenção preventiva e corretiva de hardware, montagem, diagnósticos detalhados de problemas, instalações de sistemas e softwares corporativos ou residenciais e suporte geral ao usuário final.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item right">
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Experiência Autônoma</span>
+                            <h3>Professor Particular de Informática</h3>
+                            <p>Instrução de informática básica, ajudando os alunos a desenvolver competências digitais fundamentais, navegação segura, uso de ferramentas de escritório e entendimento inicial do funcionamento de computadores.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item left">
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Experiência Comercial</span>
+                            <h3>Vendedor PJ</h3>
+                            <p>Grande período focado no desenvolvimento de inteligência interpessoal, prática de dialética em vendas, negociações diretas e excelência no atendimento ao cliente.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="formacao-section section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Formação Acadêmica</h2>
+                <div class="formacao-grid">
+                    
+                    <div class="glass-card education-card">
+                        <div class="ed-header">
+                            <span class="ed-institution">SENAC</span>
+                            <span class="ed-date">2025 — 2027</span>
+                        </div>
+                        <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                        <p class="ed-hours">Carga horária: 1200 horas</p>
+                        <p>Foco em desenvolvimento de software, metodologias ágeis, programação estruturada e aplicações comerciais.</p>
+                    </div>
+
+                    <div class="glass-card education-card">
+                        <div class="ed-header">
+                            <span class="ed-institution">SENAC</span>
+                            <span class="ed-date">2025 — 2026</span>
+                        </div>
+                        <h3>Técnico em Informática</h3>
+                        <p class="ed-hours">Carga horária: 1200 horas</p>
+                        <p>Focado em infraestrutura de TI, montagem, diagnóstico e manutenção avançada de redes e computadores.</p>
+                    </div>
+
+                    <div class="glass-card education-card">
+                        <div class="ed-header">
+                            <span class="ed-institution">Cisco Networking Academy</span>
+                            <span class="ed-badge">Certificação</span>
+                        </div>
+                        <h3>Defesa de Rede</h3>
+                        <p>Treinamento especializado em segurança digital, proteção de infraestruturas locais e fundamentos de redes de computadores licenciada via SENAC.</p>
+                    </div>
+
+                    <div class="glass-card education-card">
+                        <div class="ed-header">
+                            <span class="ed-institution">SENAC</span>
+                            <span class="ed-badge">Extensão</span>
+                        </div>
+                        <h3>Business Intelligence (Power BI)</h3>
+                        <p>Modelagem de dados, tratamento de informações com Power Query e criação de dashboards gerenciais dinâmicos para tomada de decisões.</p>
+                    </div>
+
+                    <div class="glass-card education-card">
+                        <div class="ed-header">
+                            <span class="ed-institution">Cambridge Course</span>
+                            <span class="ed-badge">Idiomas</span>
+                        </div>
+                        <h3>Curso de Inglês Avançado</h3>
+                        <p>Estudo voltado à proficiência técnica global, facilitando a leitura de documentações, termos de programação e comunicação corporativa.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="conquistas" class="conquistas-section section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Conquistas & Empreendedorismo</h2>
+                
+                <div class="mollinatech-highlight glass-card">
+                    <div class="mollina-content">
+                        <span class="gold-badge">🏆 Destaque Especial</span>
+                        <h3>Fundador da MOLLINATECH</h3>
+                        <p class="mollina-desc">
+                            A MOLLINATECH foi criada com o propósito definido de projetar e fornecer soluções tecnológicas modernas, unindo de forma unificada o desenvolvimento de sistemas customizados, arquitetura web, engenharia de hardware e manutenção avançada de TI.
+                        </p>
+                        <div class="mollina-features">
+                            <div class="feat"><span class="icon">💻</span> Formação técnica dupla em tecnologia</div>
+                            <div class="feat"><span class="icon">🌐</span> Expertise em Desenvolvimento Web</div>
+                            <div class="feat"><span class="icon">🖥️</span> Experiência de campo em infraestrutura</div>
+                            <div class="feat"><span class="icon">🚀</span> Espírito puramente empreendedor</div>
+                        </div>
+                        <a href="https://instagram.com/mollinatech" target="_blank" rel="noopener" class="btn btn-primary mt-2">Conheça a Empresa</a>
+                    </div>
+                    <div class="mollina-logo-view">
+                        <img src="assets/logo-mollinatech.png" alt="Logotipo Oficial MOLLINATECH">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato-section section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Entrar em Contato</h2>
+                <p class="section-subtitle text-center">Vamos trabalhar juntos em soluções inovadoras?</p>
+                
+                <div class="contato-grid">
+                    
+                    <a href="mailto:phmolina040908@gmail.com" class="glass-card contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>E-mail</h3>
+                        <p>phmolina040908@gmail.com</p>
+                        <span class="contact-action">Enviar mensagem →</span>
+                    </a>
+
+                    <div class="glass-card contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>WhatsApp</h3>
+                        <p>+55 (35) 99720-5858</p>
+                        <div class="contact-buttons">
+                            <a href="https://wa.me/5535997205858" target="_blank" rel="noopener" class="sub-btn">Conversar</a>
+                            <button onclick="copyToClipboard('+5535997205858')" class="sub-btn secondary-sub">Copiar Número</button>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/mollina_041" target="_blank" rel="noopener" class="glass-card contact-card">
+                        <div class="contact-icon">📸</div>
+                        <h3>Instagram Pessoal</h3>
+                        <p>@mollina_041</p>
+                        <span class="contact-action">Seguir perfil →</span>
+                    </a>
+
+                    <a href="https://instagram.com/mollinatech" target="_blank" rel="noopener" class="glass-card contact-card">
+                        <div class="contact-icon">🚀</div>
+                        <h3>Instagram Empresa</h3>
+                        <p>@mollinatech</p>
+                        <span class="contact-action">Acompanhar →</span>
+                    </a>
+
+                </div>
+
+                <div class="linkedin-premium-card glass-card">
+                    <div class="licard-text">
+                        <div class="contact-icon">💼</div>
+                        <h3>Conexão Profissional no LinkedIn</h3>
+                        <p>Pedro Henrique Carvalho Molina</p>
+                    </div>
+                    <a href="https://www.linkedin.com/in/pedro-henrique-carvalho-molina-111b54373/" target="_blank" rel="noopener" class="btn btn-secondary">Ver Perfil no LinkedIn</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo-mollinatech.png" alt="Logo MOLLINATECH" class="footer-logo">
+                <p class="footer-copy">&copy; 2026 MOLLINATECH - Todos os direitos reservados.</p>
+                <p class="footer-author">Desenvolvido com dedicação por Pedro Henrique Molina.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/pedro-henrique-carvalho-molina-111b54373/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://instagram.com/mollina_041" target="_blank" rel="noopener" aria-label="Instagram Pessoal">Instagram</a>
+                <a href="https://instagram.com/mollinatech" target="_blank" rel="noopener" aria-label="Instagram MollinaTech">MollinaTech</a>
+                <a href="https://wa.me/5535997205858" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+                <a href="mailto:phmolina040908@gmail.com" aria-label="E-mail">E-mail</a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Voltar ao topo da página">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
